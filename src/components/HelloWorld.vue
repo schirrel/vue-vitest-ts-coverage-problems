@@ -104,11 +104,15 @@
 
 <script lang="ts">
 import Vue from "vue";
+import { sub } from "../helpers";
 
 export default Vue.extend({
   name: "HelloWorld",
   props: {
     msg: String,
+  },
+  methods: {
+    sub,
   },
 });
 </script>
