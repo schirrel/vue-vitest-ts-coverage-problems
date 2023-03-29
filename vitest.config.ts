@@ -34,7 +34,6 @@ export default defineConfig({
     globals: true,
     coverage: {
       provider: "c8",
-      all: true,
       reporter: ["json", "lcov", "text", "text-summary", "html"],
       include: ["**/*.{js,ts,vue}"],
       exclude: [
